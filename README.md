@@ -16,45 +16,52 @@ I'm **Vinay Shetty**, a passionate **Data & AI Engineer** building intelligent s
 
 ## 🌟 Featured Projects
 
-### 1. **[AI Data Agent](https://github.com/vinayshetty777/AI_Data_Agent)**
+### 1. **[Walmart Retail Lakehouse Pipeline](https://github.com/vinayshetty777/Walmart_DBT_DATABRICKS)** ⭐ My First End-to-End Project
+An end-to-end retail data pipeline on Databricks: managed ingestion from a PostgreSQL (Lakebase) source, dbt transformations with SCD2 snapshots, metric views for analytics, and a Databricks Asset Bundle that deploys dev and prod.
+- **Tech:** Lakeflow Connect, Lakeflow Jobs, dbt, Unity Catalog, Lakebase Postgres, Databricks Asset Bundles, Metric Views, Git
+- **Flow:** Lakebase → Lakeflow Connect (bronze) → dbt (silver, gold, snapshots) → metric views → dashboard
+- **Highlights:** found and fixed a grain bug that inflated revenue about 10x; added a grain test; reconciled metric-view totals to raw SQL; set up separate dev and prod targets
+- **Status:** 🧱 Dev fully deployed; prod runs ingestion and dbt successfully
+
+### 2. **[AI Data Agent](https://github.com/vinayshetty777/AI_Data_Agent)**
 Intelligent multi-agent system for automating data operations, SQL query generation, and ETL pipeline construction using LangChain and Claude AI.
 - **Tech:** LangChain, LangGraph, Claude AI, PostgreSQL, Python
 - **Features:** SQL query generation, ETL design, multi-agent orchestration
 - **Status:** 🚀 Active Development
 
-### 2. **[CareSync ADF Repository](https://github.com/vinayshetty777/caresync-adf-repo)**
+### 3. **[CareSync ADF Repository](https://github.com/vinayshetty777/caresync-adf-repo)**
 Enterprise-grade healthcare data pipeline built on Azure Data Factory. Demonstrates cloud-native data engineering with automated ETL, data quality checks, and analytics-ready outputs.
 - **Tech:** Azure Data Factory, Azure Data Lake, SQL Server, PySpark
 - **Architecture:** Bronze-Silver-Gold medallion pattern
 - **Status:** 📈 Production Pipeline
 
-### 3. **[FinGuard Kafka Streaming Project](https://github.com/vinayshetty777/finguard_kakfa_streaming_project)**
+### 4. **[FinGuard Kafka Streaming Project](https://github.com/vinayshetty777/finguard_kakfa_streaming_project)**
 Real-time financial data streaming platform for fraud detection and transaction monitoring using Apache Kafka and Databricks.
 - **Tech:** Apache Kafka, Databricks, PySpark, PostgreSQL, Real-time ML
 - **Capabilities:** Streaming analytics, fraud detection, real-time alerts
 - **Status:** ⚙️ Advanced Streaming Architecture
 
-### 4. **[COVID-19 Azure Data Factory](https://github.com/vinayshetty777/Covid-19-Azure-Data-Factory)**
+### 5. **[COVID-19 Azure Data Factory](https://github.com/vinayshetty777/Covid-19-Azure-Data-Factory)**
 Cloud-native data engineering solution analyzing COVID-19 epidemiological data. Demonstrates multi-layered data architecture and Power BI analytics.
 - **Tech:** Azure Data Factory, Data Lake Storage, HDInsight, Power BI, Python/PySpark
 - **Data Sources:** ECDC, Eurostat
 - **Scope:** Public health data analytics and visualization
 - **Status:** ✅ Complete Project
 
-### 5. **[Credit Default Prediction with SHAP & XGBoost](https://github.com/vinayshetty777/credit-default-prediction-shap-xgboost)**
+### 6. **[Credit Default Prediction with SHAP & XGBoost](https://github.com/vinayshetty777/credit-default-prediction-shap-xgboost)**
 Explainable machine learning solution for credit card default prediction with interpretability using SHAP. Regulatory-compliant and ethical AI implementation.
 - **Tech:** XGBoost, SHAP, Scikit-learn, Pandas, Jupyter
 - **Focus:** Interpretable ML, SHAP analysis, regulatory compliance
 - **Dataset:** UCI Credit Card Default (30K+ records)
 - **Status:** 📊 Production-Ready Model
 
-### 6. **[Customer Service App](https://github.com/vinayshetty777/customer_service_app)**
+### 7. **[Customer Service App](https://github.com/vinayshetty777/customer_service_app)**
 AI-powered customer service agent built on Databricks using LLM tool-calling. Integrates with vector search, UC functions, and policy lookup for intelligent customer support.
 - **Tech:** Databricks, MLflow, Claude AI, Vector Search, SQL Functions
 - **Features:** Real-time policy lookup, customer history retrieval, semantic search
 - **Status:** 🤖 Production-Ready AI Agent
 
-### 7. **[Databricks Bootcamp 2026](https://github.com/vinayshetty777/Databricks_bootcamp_2026)**
+### 8. **[Databricks Bootcamp 2026](https://github.com/vinayshetty777/Databricks_bootcamp_2026)**
 A comprehensive hands-on bootcamp for building modern data lakehouses using Databricks and the Medallion Architecture. Learn enterprise-grade data engineering with real-world bike-sharing analytics.
 - **Tech:** Databricks, PySpark, Spark SQL, Delta Lake, Unity Catalog
 - **Duration:** 20 Days intensive learning path
