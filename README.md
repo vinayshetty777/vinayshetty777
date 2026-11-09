@@ -16,7 +16,7 @@ I'm **Vinay Shetty**, a passionate **Data & AI Engineer** building intelligent s
 
 ## 🌟 Featured Projects
 
-### 1. **[Walmart Retail Lakehouse Pipeline](https://github.com/vinayshetty777/Walmart_DBT_DATABRICKS)** ⭐ My First End-to-End Project
+### 1. **[Walmart Retail Lakehouse Pipeline](https://github.com/vinayshetty777/Walmart_DBT_DATABRICKS)** ⭐ 
 An end-to-end retail data pipeline on Databricks: managed ingestion from a PostgreSQL (Lakebase) source, dbt transformations with SCD2 snapshots, metric views for analytics, and a Databricks Asset Bundle that deploys dev and prod.
 - **Tech:** Lakeflow Connect, Lakeflow Jobs, dbt, Unity Catalog, Lakebase Postgres, Databricks Asset Bundles, Metric Views, Git
 - **Flow:** Lakebase → Lakeflow Connect (bronze) → dbt (silver, gold, snapshots) → metric views → dashboard
